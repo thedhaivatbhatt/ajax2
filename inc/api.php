@@ -75,5 +75,6 @@ if ($action == "select")
     $data = $statement->fetchAll();
     echo json_encode($data);
 }
+
 // var_dump($data);
 // echo json_encode($data);
